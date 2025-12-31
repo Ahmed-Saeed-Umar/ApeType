@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./logo.png" type="image/x-icon">
+    <title>ApeType</title>
+</head>
+<body>
+    
+    <header>
+        <img src="logo.png">
+        <h1 id="title" >apetype</h1>
+    </header>
+    <br>
+    <div class="container">
+        <div id="time">
+            <h4>time</h4>
+
+            <h4 class="time active" data-time="15" id="byDefault">15s</h4>
+            <h4 class="time" data-time="30">30s</h4>
+            <h4 class="time" data-time="60">60s</h4>
+        </div>
+    </div>
+    
+    <h3 id="countdown">TIME</h3><br>
+    <div class="container">
+        <div id="text-display-wrapper">
+            <div id="text-display">text loading...</div>
+        </div>
+    </div>
+    <br><br>
+    <div class="stat" id="wpm">WPM: <span class="stats">0</span></div>
+    <div class="stat" id="accuracy">Accuracy: <span class="stats">100%</span></div>
+<br><br>
+    <img id="reset" src="icons8-restart-512.png">
+
+    <div id="result-container">
+        <h1>RESULTS</h1>
+        <!-- <br> -->
+        <div id="results">
+            <div class="stat-row">
+                <h3 class="grey" style="width: 10ch;">Test Time</h3>
+                <h3 id="time-end">00</h3>
+            </div>
+            <div class="stat-row">
+                <h3 class="grey" style="width: 10ch;">WPM</h3>
+                <h3 id="wpm-end">00</h3>
+            </div>  
+            <div class="stat-row">
+                <h3 class="grey" style="width: 10ch;">Accuracy</h3>
+                <h3 id="acc-end">00</h3>
+            </div>
+        </div>
+
+    </div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+ <footer>
+<div id="links">
+  <a href="https://github.com/Ahmed-Saeed-Umar" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a> |
+  <a href="https://www.linkedin.com/in/ahmed-saeed-umar" target="_blank">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+</div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
