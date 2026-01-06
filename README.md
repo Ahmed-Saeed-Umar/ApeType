@@ -1,7 +1,7 @@
 # ApeType
 A frontend typing speed test website inspired by Monkeytype, built using HTML, CSS, and JavaScript as part of a college web development assignment.
 
-#TRY IT OUT HERE: [ApeType](https://ahmed-saeed-umar.github.io/ApeType/)
+# TRY IT OUT HERE:   [ApeType](https://ahmed-saeed-umar.github.io/ApeType/)
 
 🚀 Features
 
